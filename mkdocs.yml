@@ -1,8 +1,8 @@
 site_name: Awesome EEG Learning
 site_description: 从经典 EEG 范式到卒中、癫痫、睡眠与麻醉的中文入门路线
-site_url: https://YOUR_GITHUB_USERNAME.github.io/awesome-eeg-learning/
-repo_url: https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning
-repo_name: YOUR_GITHUB_USERNAME/awesome-eeg-learning
+site_url: https://zhmm1216.github.io/awesome-eeg-learning/
+repo_url: https://github.com/ZHMM1216/awesome-eeg-learning
+repo_name: ZHMM1216/awesome-eeg-learning
 theme:
   name: material
   language: zh

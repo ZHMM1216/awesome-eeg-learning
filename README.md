@@ -2,8 +2,8 @@
 
 > 从经典 EEG 范式到卒中、癫痫、睡眠分期与麻醉的中文入门项目。
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning/actions/workflows/ci.yml)
-[![Pages](https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning/actions/workflows/pages.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning/actions/workflows/pages.yml)
+[![CI](https://github.com/ZHMM1216/awesome-eeg-learning/actions/workflows/ci.yml/badge.svg)](https://github.com/ZHMM1216/awesome-eeg-learning/actions/workflows/ci.yml)
+[![Pages](https://github.com/ZHMM1216/awesome-eeg-learning/actions/workflows/pages.yml/badge.svg)](https://github.com/ZHMM1216/awesome-eeg-learning/actions/workflows/pages.yml)
 [![DOI verified](https://img.shields.io/badge/DOI-Crossref%20%2B%20DataCite-2ea44f)](catalog/papers.yml)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 

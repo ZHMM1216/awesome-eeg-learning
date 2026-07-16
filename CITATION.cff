@@ -5,9 +5,7 @@ type: software
 version: 0.1.0
 date-released: 2026-07-16
 license: MIT
-repository-code: "https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning"
-url: "https://YOUR_GITHUB_USERNAME.github.io/awesome-eeg-learning/"
+repository-code: "https://github.com/ZHMM1216/awesome-eeg-learning"
+url: "https://zhmm1216.github.io/awesome-eeg-learning/"
 authors:
-  - family-names: "YOUR_FAMILY_NAME"
-    given-names: "YOUR_GIVEN_NAME"
-
+  - family-names: "ZH"

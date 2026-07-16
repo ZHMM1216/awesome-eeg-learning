@@ -6,12 +6,12 @@
 
 发布前只需要确定：
 
-- `YOUR_GITHUB_USERNAME`：你的 GitHub 用户名或组织名；
+- GitHub 用户名：`ZHMM1216`；
 - 仓库名：默认 `awesome-eeg-learning`；
 - 仓库可见性：默认推荐 `public`；
 - `CITATION.cff` 中的作者姓名（可选）。
 
-把 `README.md`、`mkdocs.yml` 和 `CITATION.cff` 中的 `YOUR_GITHUB_USERNAME` 替换为真实用户名。如果不需要个人作者署名，可从 `CITATION.cff` 删除占位作者。
+当前仓库已经配置为 `ZHMM1216/awesome-eeg-learning`，作者署名为 `ZH`。
 
 ## 安装并登录 GitHub CLI（Windows）
 
@@ -38,8 +38,7 @@ gh repo create awesome-eeg-learning --public --source . --remote origin --push
 成功后地址通常为：
 
 ```text
-https://YOUR_GITHUB_USERNAME.github.io/awesome-eeg-learning/
+https://zhmm1216.github.io/awesome-eeg-learning/
 ```
 
 如果使用组织、不同仓库名或自定义域名，需要同步修改 `mkdocs.yml` 的 `site_url`、`repo_url` 和 `repo_name`。
-
