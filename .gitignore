@@ -9,6 +9,7 @@ site/
 .cache/
 data/
 models/
+outputs/
 *.edf
 *.bdf
 *.gdf
