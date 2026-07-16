@@ -24,6 +24,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换浅色模式
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - admonition
   - attr_list
@@ -46,7 +48,13 @@ nav:
       - 环境与学习路线: getting-started.md
       - EEG 基础: foundations.md
       - 科研与评估规范: research-practice.md
-  - 经典范式: paradigms.md
+  - 经典范式:
+      - 范式总览: paradigms.md
+      - 睁闭眼 Alpha: paradigms/alpha.md
+      - Oddball / P300: paradigms/p300.md
+      - SSVEP: paradigms/ssvep.md
+      - 运动想象: paradigms/motor-imagery.md
+      - ERN 与 N170: paradigms/ern-n170.md
   - 临床方向:
       - 卒中: stroke.md
       - 癫痫: epilepsy.md

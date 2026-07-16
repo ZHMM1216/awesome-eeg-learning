@@ -1,0 +1,20 @@
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  font-size: 0.72rem;
+}
+
+.md-typeset table:not([class]) th {
+  white-space: nowrap;
+}
+
+.md-typeset table:not([class]) td:nth-child(3) {
+  min-width: 15rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table:not([class]) {
+    display: block;
+    overflow-x: auto;
+  }
+}
