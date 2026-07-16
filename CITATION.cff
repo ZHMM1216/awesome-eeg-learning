@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If this educational project helps your work, please cite the repository and the original papers/datasets you use."
+title: "Awesome EEG Learning"
+type: software
+version: 0.1.0
+date-released: 2026-07-16
+license: MIT
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning"
+url: "https://YOUR_GITHUB_USERNAME.github.io/awesome-eeg-learning/"
+authors:
+  - family-names: "YOUR_FAMILY_NAME"
+    given-names: "YOUR_GIVEN_NAME"
+

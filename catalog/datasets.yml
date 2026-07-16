@@ -1,0 +1,100 @@
+- id: eegmmidb
+  name: EEG Motor Movement/Imagery Database
+  topics: [foundation, motor-imagery]
+  official_url: https://physionet.org/content/eegmmidb/1.0.0/
+  access: open
+  license: ODC Public Domain Dedication and License v1.0
+  formats: [EDF+]
+  subjects: 109
+  sampling_rate_hz: 160
+  instructions_zh: 可由 MNE eegbci 模块按受试者和运行编号下载；入门实验只取一名受试者。
+
+- id: openneuro-ds003061
+  name: EEG data from an auditory oddball task
+  topics: [p300]
+  official_url: https://openneuro.org/datasets/ds003061/versions/1.1.1
+  access: open
+  license: CC0
+  formats: [EEG-BIDS, EEGLAB]
+  instructions_zh: 使用 OpenNeuro 或 DataLad 下载；教程固定使用版本 1.1.1。
+
+- id: mne-ssvep
+  name: MNE SSVEP example dataset
+  topics: [ssvep]
+  official_url: https://mne.tools/stable/overview/datasets_index.html#ssvep
+  access: open
+  license: see official dataset page
+  formats: [BrainVision, EEG-BIDS]
+  subjects: 2
+  instructions_zh: 通过 mne.datasets.ssvep.data_path() 下载，适合频谱与 CCA 入门。
+
+- id: erp-core
+  name: ERP CORE
+  topics: [ern, n170, p300]
+  official_url: https://erpinfo.org/erp-core
+  access: open
+  license: CC BY 4.0
+  formats: [EEGLAB, EEG-BIDS]
+  instructions_zh: 首版 Flanker/ERN 示例使用 MNE 提供的单被试 ERP CORE 子集。
+
+- id: liu2024-stroke
+  name: Acute stroke motor imagery EEG dataset
+  topics: [stroke, motor-imagery]
+  official_url: https://doi.org/10.1038/s41597-023-02787-8
+  access: open via MOABB/NEMAR
+  license: CC BY 4.0
+  formats: [MATLAB, EEG-BIDS]
+  subjects: 50
+  sampling_rate_hz: 500
+  instructions_zh: 使用 MOABB Liu2024 数据类下载；演示模式限制为一名受试者。
+
+- id: chbmit
+  name: CHB-MIT Scalp EEG Database
+  topics: [epilepsy]
+  official_url: https://physionet.org/content/chbmit/1.0.0/
+  access: open
+  license: ODC Attribution License v1.0
+  formats: [EDF, PhysioNet annotations]
+  subjects: 24
+  sampling_rate_hz: 256
+  instructions_zh: 演示仅读取带发作标注的少量记录；研究评估必须按患者和时间划分。
+
+- id: tusz
+  name: Temple University Hospital EEG Seizure Corpus
+  topics: [epilepsy]
+  official_url: https://isip.piconepress.com/projects/nedc/html/tuh_eeg/
+  access: registration required
+  license: NEDC data use terms
+  formats: [EDF, annotations]
+  instructions_zh: 需在官方站点注册并同意使用条款；仓库不代为下载或分发。
+
+- id: sleep-edfx
+  name: Sleep-EDF Database Expanded
+  topics: [sleep]
+  official_url: https://physionet.org/content/sleep-edfx/1.0.0/
+  access: open
+  license: ODC Attribution License v1.0
+  formats: [EDF, EDF+]
+  recordings: 197
+  sampling_rate_hz: 100
+  instructions_zh: 使用 PSG 与对应 Hypnogram 文件；按受试者而不是 30 秒片段随机拆分。
+
+- id: gaba-anesthesia
+  name: Electroencephalogram dynamics during unconsciousness mediated by GABAergic anesthetics
+  topics: [anesthesia]
+  official_url: https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/
+  access: credentialed PhysioNet access
+  license: PhysioNet Credentialed Health Data License 1.5.0
+  formats: [MATLAB]
+  instructions_zh: 需要 PhysioNet 账号、培训和数据使用协议；仓库只提供加载器和说明。
+
+- id: vitaldb
+  name: VitalDB Open Dataset
+  topics: [anesthesia]
+  official_url: https://vitaldb.net/dataset/
+  access: data use agreement required
+  license: CC BY-NC-SA 4.0 plus VitalDB data use agreement
+  formats: [VITAL, CSV]
+  subjects: 6388
+  instructions_zh: 先阅读并同意 VitalDB 数据使用协议；筛选同时包含 EEG、BIS、SQI、SEF、SR 的病例。
+

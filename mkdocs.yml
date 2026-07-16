@@ -1,0 +1,58 @@
+site_name: Awesome EEG Learning
+site_description: 从经典 EEG 范式到卒中、癫痫、睡眠与麻醉的中文入门路线
+site_url: https://YOUR_GITHUB_USERNAME.github.io/awesome-eeg-learning/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/awesome-eeg-learning
+repo_name: YOUR_GITHUB_USERNAME/awesome-eeg-learning
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+nav:
+  - 首页: index.md
+  - 入门路线:
+      - 环境与学习路线: getting-started.md
+      - EEG 基础: foundations.md
+      - 科研与评估规范: research-practice.md
+  - 经典范式: paradigms.md
+  - 临床方向:
+      - 卒中: stroke.md
+      - 癫痫: epilepsy.md
+      - 睡眠分期: sleep.md
+      - 麻醉: anesthesia.md
+  - 资源:
+      - 数据集: datasets.md
+      - 精选论文: literature.md
+      - 可运行案例: examples.md

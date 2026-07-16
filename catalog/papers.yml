@@ -1,0 +1,389 @@
+- id: berger-1929-eeg
+  title: Über das Elektrenkephalogramm des Menschen
+  authors: Hans Berger
+  year: 1929
+  venue: Archiv für Psychiatrie und Nervenkrankheiten
+  doi: 10.1007/BF01797193
+  topics: [foundation]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1007/BF01797193
+  code_relation: none_found
+  summary_zh: 人体脑电研究的奠基性工作。适合了解 EEG 的历史起点，而不是直接作为现代分析规范使用。
+
+- id: welch-1967-psd
+  title: "The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms"
+  authors: Peter D. Welch
+  year: 1967
+  venue: IEEE Transactions on Audio and Electroacoustics
+  doi: 10.1109/TAU.1967.1161901
+  topics: [foundation]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1109/TAU.1967.1161901
+  code_relation: none_found
+  summary_zh: Welch 功率谱估计的经典论文，是 EEG 频带功率和功率谱密度分析的基础。
+
+- id: regan-1966-ssvep
+  title: Some characteristics of average steady-state and transient responses evoked by modulated light
+  authors: David Regan
+  year: 1966
+  venue: Electroencephalography and Clinical Neurophysiology
+  doi: 10.1016/0013-4694(66)90088-5
+  topics: [ssvep]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/0013-4694(66)90088-5
+  code_relation: none_found
+  summary_zh: 早期系统描述稳态视觉诱发响应的经典研究，为频率标记和 SSVEP-BCI 奠定基础。
+
+- id: farwell-donchin-1988-p300
+  title: "Talking off the top of your head: toward a mental prosthesis utilizing event-related brain potentials"
+  authors: Lawrence A. Farwell; Emanuel Donchin
+  year: 1988
+  venue: Electroencephalography and Clinical Neurophysiology
+  doi: 10.1016/0013-4694(88)90149-6
+  topics: [p300]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/0013-4694(88)90149-6
+  code_relation: none_found
+  summary_zh: P300 拼写器的代表性论文，展示 Oddball ERP 如何转化为脑机接口控制信号。
+
+- id: gehring-1993-ern
+  title: A Neural System for Error Detection and Compensation
+  authors: William J. Gehring; Brian Goss; Michael G. H. Coles; David E. Meyer; Emanuel Donchin
+  year: 1993
+  venue: Psychological Science
+  doi: 10.1111/j.1467-9280.1993.tb00586.x
+  topics: [ern]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1111/j.1467-9280.1993.tb00586.x
+  code_relation: none_found
+  summary_zh: 错误相关负波 ERN 的奠基研究，适合学习反应锁定 ERP 和认知控制实验设计。
+
+- id: bentin-1996-n170
+  title: Electrophysiological Studies of Face Perception in Humans
+  authors: Shlomo Bentin; Truett Allison; Aina Puce; Erik Perez; Gregory McCarthy
+  year: 1996
+  venue: Journal of Cognitive Neuroscience
+  doi: 10.1162/jocn.1996.8.6.551
+  topics: [n170]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1162/jocn.1996.8.6.551
+  code_relation: none_found
+  summary_zh: 人脸加工 N170 成分的经典工作，连接视觉范式、刺激控制、ERP 与头皮分布。
+
+- id: pfurtscheller-neuper-2001-mi
+  title: Motor imagery and direct brain-computer communication
+  authors: Gert Pfurtscheller; Christa Neuper
+  year: 2001
+  venue: Proceedings of the IEEE
+  doi: 10.1109/5.939829
+  topics: [motor-imagery]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1109/5.939829
+  code_relation: none_found
+  summary_zh: 运动想象 BCI 的经典综述，重点理解感觉运动节律、ERD/ERS 与训练反馈。
+
+- id: andrzejak-2001-epilepsy
+  title: "Indications of nonlinear deterministic and finite-dimensional structures in time series of brain electrical activity: Dependence on recording region and brain state"
+  authors: Ralph G. Andrzejak et al.
+  year: 2001
+  venue: Physical Review E
+  doi: 10.1103/PhysRevE.64.061907
+  topics: [epilepsy]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1103/PhysRevE.64.061907
+  code_relation: none_found
+  summary_zh: Bonn 癫痫 EEG 数据相关经典工作；同时提醒初学者不要把短片段分类等同于临床连续发作检测。
+
+- id: delorme-makeig-2004-eeglab
+  title: "EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis"
+  authors: Arnaud Delorme; Scott Makeig
+  year: 2004
+  venue: Journal of Neuroscience Methods
+  doi: 10.1016/j.jneumeth.2003.10.009
+  topics: [foundation, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.jneumeth.2003.10.009
+  code_url: https://github.com/sccn/eeglab
+  code_relation: official
+  summary_zh: EEGLAB 工具箱论文，推动了单试次 EEG、ICA 和可复现分析流程的普及。
+
+- id: brown-2010-anesthesia
+  title: General Anesthesia, Sleep, and Coma
+  authors: Emery N. Brown; Ralph Lydic; Nicholas D. Schiff
+  year: 2010
+  venue: New England Journal of Medicine
+  doi: 10.1056/NEJMra0808281
+  topics: [anesthesia, sleep]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1056/NEJMra0808281
+  code_relation: none_found
+  summary_zh: 从神经回路和脑状态角度比较麻醉、睡眠与昏迷，是理解麻醉 EEG 的重要概念入口。
+
+- id: purdon-2013-propofol
+  title: Electroencephalogram signatures of loss and recovery of consciousness from propofol
+  authors: Patrick L. Purdon et al.
+  year: 2013
+  venue: Proceedings of the National Academy of Sciences
+  doi: 10.1073/pnas.1221180110
+  topics: [anesthesia]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1073/pnas.1221180110
+  code_relation: none_found
+  summary_zh: 描述丙泊酚诱导意识消失和恢复时的典型 EEG 频谱与相干变化。
+
+- id: gramfort-2013-mne
+  title: MEG and EEG data analysis with MNE-Python
+  authors: Alexandre Gramfort et al.
+  year: 2013
+  venue: Frontiers in Neuroscience
+  doi: 10.3389/fnins.2013.00267
+  topics: [foundation, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.3389/fnins.2013.00267
+  code_url: https://github.com/mne-tools/mne-python
+  code_relation: official
+  summary_zh: 本项目所采用的 Python EEG/MEG 分析主工具，覆盖读取、预处理、可视化、统计和解码。
+
+- id: purdon-2015-clinical-anesthesia-eeg
+  title: Clinical Electroencephalography for Anesthesiologists
+  authors: Patrick L. Purdon; Eric T. Pierce; Gregory A. Bonmassar; James Walsh; George Harrell; Emery N. Brown
+  year: 2015
+  venue: Anesthesiology
+  doi: 10.1097/ALN.0000000000000841
+  topics: [anesthesia]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1097/ALN.0000000000000841
+  code_relation: none_found
+  summary_zh: 面向麻醉专业人员的临床 EEG 教程，强调原始波形与谱图，而非只依赖单一指数。
+
+- id: deepsleepnet-2017
+  title: "DeepSleepNet: A Model for Automatic Sleep Stage Scoring Based on Raw Single-Channel EEG"
+  authors: Akara Supratak; Hao Dong; Chao Wu; Yike Guo
+  year: 2017
+  venue: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  doi: 10.1109/TNSRE.2017.2721116
+  topics: [sleep]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1109/TNSRE.2017.2721116
+  code_url: https://github.com/akaraspt/deepsleepnet
+  code_relation: official
+  summary_zh: 自动睡眠分期的代表性深度学习方法，组合多尺度 CNN 与双向循环网络。
+
+- id: cervera-2018-stroke-bci-meta
+  title: "Brain-computer interfaces for post-stroke motor rehabilitation: a meta-analysis"
+  authors: M. A. Cervera et al.
+  year: 2018
+  venue: Annals of Clinical and Translational Neurology
+  doi: 10.1002/acn3.544
+  topics: [stroke, motor-imagery]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1002/acn3.544
+  code_relation: none_found
+  summary_zh: 汇总 BCI 辅助卒中运动康复的临床证据，帮助区分解码性能与康复结局。
+
+- id: shah-2018-tusz
+  title: The Temple University Hospital Seizure Detection Corpus
+  authors: Vinit Shah et al.
+  year: 2018
+  venue: Frontiers in Neuroinformatics
+  doi: 10.3389/fninf.2018.00083
+  topics: [epilepsy]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.3389/fninf.2018.00083
+  code_relation: none_found
+  summary_zh: 介绍大型临床癫痫发作语料 TUSZ，突出真实临床连续 EEG 与小型片段数据集的差异。
+
+- id: lawhern-2018-eegnet
+  title: "EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces"
+  authors: Vernon J. Lawhern et al.
+  year: 2018
+  venue: Journal of Neural Engineering
+  doi: 10.1088/1741-2552/aace8c
+  topics: [tooling, motor-imagery, p300, ssvep]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1088/1741-2552/aace8c
+  code_url: https://github.com/vlawhern/arl-eegmodels
+  code_relation: official
+  summary_zh: 紧凑型 EEG 深度网络，常作为跨范式基线；首学时仍应先掌握经典线性方法和正确划分。
+
+- id: pernet-2019-eeg-bids
+  title: EEG-BIDS, an extension to the brain imaging data structure for electroencephalography
+  authors: Cyril R. Pernet et al.
+  year: 2019
+  venue: Scientific Data
+  doi: 10.1038/s41597-019-0104-8
+  topics: [foundation, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1038/s41597-019-0104-8
+  code_url: https://github.com/mne-tools/mne-bids
+  code_relation: author_related
+  summary_zh: EEG-BIDS 标准论文，规定可共享、可机器读取的 EEG 数据与事件元数据结构。
+
+- id: usleep-2021
+  title: "U-Sleep: resilient high-frequency sleep staging"
+  authors: Mathias Perslev et al.
+  year: 2021
+  venue: npj Digital Medicine
+  doi: 10.1038/s41746-021-00440-5
+  topics: [sleep]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1038/s41746-021-00440-5
+  code_url: https://github.com/perslev/U-Time
+  code_relation: official
+  summary_zh: 大规模多中心训练的睡眠分期系统，强调跨数据集、跨导联和跨人群的泛化能力。
+
+- id: yasa-2021
+  title: An open-source, high-performance tool for automated sleep staging
+  authors: Raphael Vallat; Matthew P. Walker
+  year: 2021
+  venue: eLife
+  doi: 10.7554/eLife.70092
+  topics: [sleep, tooling]
+  classic: false
+  recent: false
+  paper_url: https://doi.org/10.7554/eLife.70092
+  code_url: https://github.com/raphaelvallat/yasa
+  code_relation: official
+  summary_zh: 易用的开源自动睡眠分期工具，适合用于教学比较，但输出不替代专业睡眠技师评分。
+
+- id: vitaldb-2022
+  title: VitalDB, a high-fidelity multi-parameter vital signs database in surgical patients
+  authors: Hyung-Chul Lee et al.
+  year: 2022
+  venue: Scientific Data
+  doi: 10.1038/s41597-022-01411-5
+  topics: [anesthesia]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-022-01411-5
+  code_url: https://github.com/vitaldb/examples
+  code_relation: official
+  summary_zh: 大规模术中多参数数据库，包含部分 BIS 原始 EEG、BIS、SQI、SEF 和抑制率轨道。
+
+- id: openibis-2022
+  title: Open Reimplementation of the BIS Algorithms for Depth of Anesthesia
+  authors: Connor D. Hight et al.
+  year: 2022
+  venue: Anesthesia & Analgesia
+  doi: 10.1213/ANE.0000000000006119
+  topics: [anesthesia]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1213/ANE.0000000000006119
+  code_relation: none_found
+  summary_zh: 对 BIS 算法进行透明重实现，适合讨论专有处理指数的可解释性、局限与可复现性。
+
+- id: sleeptransformer-2022
+  title: "SleepTransformer: Automatic Sleep Staging With Interpretability and Uncertainty Quantification"
+  authors: Huy Phan et al.
+  year: 2022
+  venue: IEEE Transactions on Biomedical Engineering
+  doi: 10.1109/TBME.2022.3147187
+  topics: [sleep]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1109/TBME.2022.3147187
+  code_url: https://github.com/pquochuy/SleepTransformer
+  code_relation: official
+  summary_zh: 将序列到序列 Transformer、注意力可解释性和不确定性估计用于自动睡眠分期。
+
+- id: discover-eeg-2023
+  title: "DISCOVER-EEG: an open, fully automated EEG pipeline for biomarker discovery in clinical neuroscience"
+  authors: S. Gil Ávila et al.
+  year: 2023
+  venue: Scientific Data
+  doi: 10.1038/s41597-023-02525-0
+  topics: [tooling, foundation]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-023-02525-0
+  code_relation: none_found
+  summary_zh: 面向临床神经科学生物标志物发现的自动化静息态 EEG 流程，适合参考质控和批处理设计。
+
+- id: liu-2024-acute-stroke-mi
+  title: An EEG motor imagery dataset for brain computer interface in acute stroke patients
+  authors: Haijie Liu et al.
+  year: 2024
+  venue: Scientific Data
+  doi: 10.1038/s41597-023-02787-8
+  topics: [stroke, motor-imagery]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-023-02787-8
+  code_url: https://moabb.neurotechx.com/docs/generated/moabb.datasets.Liu2024.html
+  code_relation: author_related
+  summary_zh: 50 名急性卒中患者的左右手握持运动想象数据，含原始/预处理数据、提示和患者特征。
+
+- id: szcore-2024
+  title: "SzCORE: Seizure Community Open-Source Research Evaluation framework for the validation of electroencephalography-based automated seizure detection algorithms"
+  authors: Jonathan Dan et al.
+  year: 2024
+  venue: Epilepsia
+  doi: 10.1111/epi.18113
+  topics: [epilepsy]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1111/epi.18113
+  code_url: https://github.com/esl-epfl/sz-validation-framework
+  code_relation: official
+  summary_zh: 统一癫痫发作检测的数据、划分、文件和临床相关指标，首版评估实现以此为规范。
+
+- id: uet175-2025-stroke
+  title: "UET175: EEG dataset of motor imagery tasks in Vietnamese stroke patients"
+  authors: Nguyen Minh Kien et al.
+  year: 2025
+  venue: Frontiers in Neuroscience
+  doi: 10.3389/fnins.2025.1580931
+  topics: [stroke, motor-imagery]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.3389/fnins.2025.1580931
+  code_url: https://github.com/nmk-k66-uet/UET175
+  code_relation: official
+  summary_zh: 越南卒中患者四肢运动想象数据，适合研究低成本设备、跨患者和跨设备泛化。
+
+- id: sleepyland-2025
+  title: "SLEEPYLAND: trust begins with fair evaluation of automatic sleep staging models"
+  authors: Mathias Perslev et al.
+  year: 2025
+  venue: npj Digital Medicine
+  doi: 10.1038/s41746-025-02237-2
+  topics: [sleep]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41746-025-02237-2
+  code_relation: none_found
+  summary_zh: 强调自动睡眠分期的公平、多中心和外部分布评估，提醒避免只报告单一数据集高分。
+
+- id: lu-2026-chronic-stroke-mi
+  title: An Upper-Limb Motor Imagery EEG Dataset of Chronic Stroke Patients
+  authors: Rongrong Lu et al.
+  year: 2026
+  venue: Scientific Data
+  doi: 10.1038/s41597-026-07742-x
+  topics: [stroke, motor-imagery]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-026-07742-x
+  code_relation: none_found
+  summary_zh: 慢性卒中患者多会话上肢运动想象数据，包含临床量表，可用于纵向和恢复程度相关研究。
+
