@@ -1,0 +1,84 @@
+# EEG 可视化图谱
+
+这一页不是“漂亮图片合集”，而是一张读图训练表。每张图都回答一个初学者必须掌握的问题。图中信号为教学性合成数据，不是患者记录，也不能作为生理正常范围或诊断标准。
+
+## 1. 电极在哪里
+
+<div class="concept-figure" markdown="1">
+![常用 10–20 EEG 电极俯视示意图](assets/figures/electrode-map.svg)
+<small>鼻尖在上方。电极名称描述头皮位置；头皮图不能直接等同于脑源定位。</small>
+</div>
+
+读图顺序：先找中线 Fz/Cz/Pz/Oz，再找左右成对通道，最后把范式和区域联系起来：P300 常关注顶中央，运动想象关注 C3/C4，Alpha 与 SSVEP 常关注枕区。
+
+## 2. 原始波形里混着什么
+
+<div class="concept-figure" markdown="1">
+![包含漂移、Alpha、眨眼和肌电的合成 EEG 波形](assets/figures/signal-anatomy.svg)
+<small>慢漂移、眨眼、肌电和脑节律可以同时存在；滤波前先看完整记录。</small>
+</div>
+
+不要只问“这是不是 Alpha”。先问幅值和时间尺度是否合理、伪迹是否只在部分通道出现、事件附近是否存在系统性运动。
+
+## 3. PSD 怎么读
+
+<div class="concept-figure" markdown="1">
+![睁眼和闭眼条件的合成功率谱](assets/figures/alpha-psd.svg)
+<small>闭眼 Alpha 通常表现为枕区个体峰增强，而不是整段频谱整体抬高。</small>
+</div>
+
+横轴是频率，纵轴是单位频率的功率。先看 1/f 背景，再看窄带峰、工频峰和条件差异。固定 8–13 Hz 只是起点，个体峰可能偏移。
+
+## 4. ERP 怎么读
+
+<div class="concept-figure" markdown="1">
+![目标与标准条件的合成 P300 ERP](assets/figures/p300-erp.svg)
+<small>ERP 是大量事件锁定试次的平均；时间窗与电极应尽量在看测试结果前定义。</small>
+</div>
+
+刺激发生在 0 ms。先检查刺激前基线，再看早期感觉成分，最后比较预先定义的 P300 时间窗。峰值更高不自动等于单试次分类更好。
+
+## 5. 频率标记与谐波
+
+<div class="concept-figure" markdown="1">
+![12 Hz SSVEP 及其谐波的合成功率谱](assets/figures/ssvep-spectrum.svg)
+<small>SSVEP 不只看刺激基频，还常利用二次、三次谐波。</small>
+</div>
+
+## 6. 时频图怎么读
+
+<div class="concept-figure" markdown="1">
+![运动想象期间对侧和同侧感觉运动区的合成时频功率变化](assets/figures/motor-imagery-erd.svg)
+<small>横轴是时间、纵轴是频率、颜色是相对基线的功率变化；负值表示 ERD。</small>
+</div>
+
+时频图必须配色条和基线定义。不能看到一块颜色就认定存在效应，还要检查单试次、伪迹和统计不确定性。
+
+## 7. 临床事件不是窗口 Accuracy
+
+<div class="concept-figure" markdown="1">
+![癫痫发作真值、模型报警、延迟和误报时间线](assets/figures/seizure-event-metrics.svg)
+<small>连续检测要回答是否检出、延迟多久、无发作期间产生多少误报。</small>
+</div>
+
+## 8. 整夜睡眠结构
+
+<div class="concept-figure" markdown="1">
+![八小时概念性睡眠分期 Hypnogram](assets/figures/sleep-hypnogram.svg)
+<small>Hypnogram 让你同时检查阶段转换、周期结构和异常短跳变。</small>
+</div>
+
+## 9. 麻醉要看时间—频率联合变化
+
+<div class="concept-figure" markdown="1">
+![清醒、麻醉维持、爆发抑制和恢复阶段的概念性频谱图](assets/figures/anesthesia-spectrogram.svg)
+<small>这只是概念示意；真实图形会随药物、年龄、刺激、设备和患者状态改变。</small>
+</div>
+
+## 读任何 EEG 图的五问
+
+1. 横轴、纵轴、颜色分别是什么单位？
+2. 图是单试次、单人平均、群体平均还是模型输出？
+3. 参考、滤波、基线和伪迹处理是什么？
+4. 图中不确定性和个体差异在哪里？
+5. 这张图支持描述、统计比较、预测，还是临床决策中的哪一层结论？

@@ -26,6 +26,8 @@ theme:
         name: 切换浅色模式
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/sampling-lab.js
 markdown_extensions:
   - admonition
   - attr_list
@@ -47,6 +49,9 @@ nav:
   - 入门路线:
       - 环境与学习路线: getting-started.md
       - EEG 基础: foundations.md
+      - EEG 可视化图谱: visual-atlas.md
+      - 采样与混叠实验室: labs/sampling.md
+      - EEG 术语表: glossary.md
       - 科研与评估规范: research-practice.md
   - 经典范式:
       - 范式总览: paradigms.md

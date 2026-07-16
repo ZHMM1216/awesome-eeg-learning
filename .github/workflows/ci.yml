@@ -20,6 +20,8 @@ jobs:
         run: eeg-catalog
       - name: Check generated literature tables
         run: python scripts/render_literature.py --check
+      - name: Check tutorial figures
+        run: python scripts/generate_tutorial_figures.py --check
       - name: Test
         run: pytest -q
       - name: Lint
