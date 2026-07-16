@@ -2,6 +2,17 @@
 
 运动想象不是“脑中有一段动作影片”这么简单。想象左右手运动时，感觉运动区 Mu/Beta 节律可出现事件相关去同步/同步（ERD/ERS），空间分布通常具有对侧倾向，但个体差异很大。
 
+<div class="concept-figure" markdown="1">
+![运动想象期间对侧与同侧 Mu Beta 功率变化概念图](../assets/figures/motor-imagery-erd.svg)
+<small>颜色表示相对基线的功率变化；任务期间对侧 Mu/Beta ERD 通常更明显。</small>
+</div>
+
+### 时频图的三个坐标
+
+- 横轴：相对提示的时间，0 秒前通常用作基线或准备期。
+- 纵轴：频率，Mu 约 8–13 Hz，Beta 常约 13–30 Hz，但个体边界不同。
+- 颜色：相对基线功率；必须看色条确认负值是否表示 ERD。
+
 ## 范式结构
 
 | 阶段 | 常见时长 | 分析意义 |
@@ -46,3 +57,8 @@ python examples/motor_imagery_csp.py --subject 1
 | 2018 | Cervera et al., *BCIs for post-stroke motor rehabilitation* | 区分 BCI 解码与康复临床证据 | [10.1002/acn3.544](https://doi.org/10.1002/acn3.544) | 未发现 |
 | 2024 | Liu et al., acute stroke MI dataset | 可直接练习的急性卒中数据 | [10.1038/s41597-023-02787-8](https://doi.org/10.1038/s41597-023-02787-8) | [MOABB 接入](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Liu2024.html) |
 | 2025 | Kien et al., UET175 | 越南卒中患者多肢体运动想象 | [10.3389/fnins.2025.1580931](https://doi.org/10.3389/fnins.2025.1580931) | [作者代码](https://github.com/nmk-k66-uet/UET175) |
+
+??? question "完成本节前自测"
+    - CSP 为什么要放在交叉验证训练折内？它使用类别标签学习空间滤波器。
+    - 同一 Trial 切出的重叠窗口能否分到不同折？不能，它们共享大量样本。
+    - 没有明显对侧 ERD 是否说明受试者“没有运动意图”？不能，任务执行、频段、电极、噪声和个体差异都需检查。

@@ -13,6 +13,17 @@
 2. 可复现的经典范式和临床数据实验；
 3. 带真实 DOI、数据集与作者代码状态的精选文献目录。
 
+## 这次不是只给你一份论文清单
+
+每个专题按照“**先看图 → 理解生理与范式 → 跟着流程做 → 检查结果 → 完成练习**”组织。站点新增：
+
+- [EEG 可视化图谱](docs/visual-atlas.md)：从电极、原始波形、PSD、ERP、时频图一直读到临床时间线；
+- [采样与混叠实验室](docs/labs/sampling.md)：拖动频率和采样率，直接观察欠采样；
+- [初学者术语表](docs/glossary.md)：解释 40 余个信号、实验、预处理、建模与临床术语；
+- 10 张可复现 SVG 教学图，全部由 [`scripts/generate_tutorial_figures.py`](scripts/generate_tutorial_figures.py) 生成。
+
+![睁闭眼 Alpha 的概念性功率谱](docs/assets/figures/alpha-psd.svg)
+
 ## 学习地图
 
 | 专题 | 你要识别的 EEG 特征 | 入门方法 | 学习页 |

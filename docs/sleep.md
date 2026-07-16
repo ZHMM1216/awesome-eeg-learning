@@ -2,6 +2,15 @@
 
 标准睡眠分期把多导睡眠记录切成 30 秒 Epoch，结合 EEG、EOG 和下颏 EMG 标为 Wake、N1、N2、N3 或 REM。Sleep-EDF 使用历史 R&K 标注，映射到现代五分类时必须公开合并规则。
 
+<div class="concept-figure" markdown="1">
+![概念性整夜睡眠 Hypnogram](assets/figures/sleep-hypnogram.svg)
+<small>单个 Epoch 分类只是局部判断；整夜 Hypnogram 才能检查转换、周期和异常跳变。</small>
+</div>
+
+### 为什么需要上下文
+
+相邻睡眠阶段不是独立抽签。N2 往往持续一段时间，REM 常随夜晚推进发生变化，N1 又常出现在阶段转换处。序列模型可利用这种结构，但也可能过度依赖数据集特定的阶段转移模式，因此仍需跨中心验证。
+
 ## 各阶段的学习线索
 
 | Stage | 常见线索 | 初学者注意 |
@@ -54,3 +63,8 @@ python examples/clinical/sleep_stage_features.py
 
 !!! warning "工具不是评分者"
     YASA 或任何自动模型的输出适合教学和研究比较，不替代有资质睡眠技师依据完整 PSG 进行的临床评分。
+
+??? question "完成本节前自测"
+    - 为什么不能随机拆分 30 秒 Epoch？同一夜晚相邻 Epoch 高度相关，会泄漏个体和夜晚结构。
+    - 为什么 Macro-F1 比总 Accuracy 更重要？它让少数且困难的 N1 等阶段获得同等权重。
+    - 为什么还要画 Hypnogram？它能发现不合理快速跳变和整夜结构错误。

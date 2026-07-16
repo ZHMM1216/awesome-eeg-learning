@@ -2,6 +2,14 @@
 
 这两个范式帮助你练习更细致的 ERP 设计：ERN 以行为反应为时间零点，N170 以视觉刺激为时间零点。二者都提醒我们，成分名称并不等于单一脑过程。
 
+<div class="learning-flow" aria-label="ERN 与 N170 时间锁定比较">
+  <span>Flanker 刺激</span><b>→</b><span>按键反应 = 0 ms</span><b>→</b><span>ERN 约 0–100 ms</span>
+</div>
+
+<div class="learning-flow" aria-label="N170 时间锁定">
+  <span>人脸/物体刺激 = 0 ms</span><b>→</b><span>视觉编码</span><b>→</b><span>N170 约 130–210 ms</span>
+</div>
+
 ## Flanker / ERN
 
 在 Flanker、Go/No-Go 或快速选择任务中，错误反应后约几十毫秒可观察到额中央负向成分。分析时通常以按键反应锁定，而不是刺激锁定。
@@ -37,3 +45,6 @@
 | Year | Paper | DOI |
 |---:|---|---|
 | 1996 | Bentin et al., *Electrophysiological Studies of Face Perception in Humans* | [10.1162/jocn.1996.8.6.551](https://doi.org/10.1162/jocn.1996.8.6.551) |
+
+??? question "完成本节前自测"
+    同一实验既可刺激锁定也可反应锁定，但两者回答不同问题。ERN 的错误 Trial 少时应报告每人 Trial 数；N170 比较人脸与物体时要控制低级视觉差异，并避免看完所有电极后只挑最大差异通道。
