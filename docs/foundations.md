@@ -4,10 +4,9 @@
 
 ## 1. 先认识通道位置
 
-<div class="concept-figure" markdown="1">
 ![常用 10–20 EEG 电极俯视示意图](assets/figures/electrode-map.svg)
-<small>鼻尖朝上。奇数多在左侧，偶数多在右侧，z 表示中线。</small>
-</div>
+
+*图解：鼻尖朝上。奇数多在左侧，偶数多在右侧，z 表示中线。*
 
 电极前缀提供位置线索：Fp 为额极、F 为额区、C 为中央、P 为顶区、O 为枕区、T 为颞区。它们不是“脑区传感器”；体积传导意味着一个头皮电极会混合多个源。
 
@@ -25,10 +24,9 @@
 
 ## 3. 原始波形是混合物
 
-<div class="concept-figure" markdown="1">
 ![包含漂移、眨眼、Alpha 和肌电的合成 EEG 波形](assets/figures/signal-anatomy.svg)
-<small>教学性合成信号：慢漂移、节律、眼电和肌电可同时叠加。</small>
-</div>
+
+*图解：教学性合成信号；慢漂移、节律、眼电和肌电可同时叠加。*
 
 ### 用时间尺度判断，而不是只看形状
 

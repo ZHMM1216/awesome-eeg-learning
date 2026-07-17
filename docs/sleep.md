@@ -2,10 +2,9 @@
 
 标准睡眠分期把多导睡眠记录切成 30 秒 Epoch，结合 EEG、EOG 和下颏 EMG 标为 Wake、N1、N2、N3 或 REM。Sleep-EDF 使用历史 R&K 标注，映射到现代五分类时必须公开合并规则。
 
-<div class="concept-figure" markdown="1">
 ![概念性整夜睡眠 Hypnogram](assets/figures/sleep-hypnogram.svg)
-<small>单个 Epoch 分类只是局部判断；整夜 Hypnogram 才能检查转换、周期和异常跳变。</small>
-</div>
+
+*图解：单个 Epoch 分类只是局部判断；整夜 Hypnogram 才能检查转换、周期和异常跳变。*
 
 ### 为什么需要上下文
 

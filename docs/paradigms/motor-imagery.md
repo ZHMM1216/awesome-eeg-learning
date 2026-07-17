@@ -2,10 +2,9 @@
 
 运动想象不是“脑中有一段动作影片”这么简单。想象左右手运动时，感觉运动区 Mu/Beta 节律可出现事件相关去同步/同步（ERD/ERS），空间分布通常具有对侧倾向，但个体差异很大。
 
-<div class="concept-figure" markdown="1">
 ![运动想象期间对侧与同侧 Mu Beta 功率变化概念图](../assets/figures/motor-imagery-erd.svg)
-<small>颜色表示相对基线的功率变化；任务期间对侧 Mu/Beta ERD 通常更明显。</small>
-</div>
+
+*图解：颜色表示相对基线的功率变化；任务期间对侧 Mu/Beta ERD 通常更明显。*
 
 ### 时频图的三个坐标
 
