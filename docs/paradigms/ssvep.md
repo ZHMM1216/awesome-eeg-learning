@@ -2,10 +2,9 @@
 
 注视周期性闪烁刺激时，枕区 EEG 可在刺激频率及其谐波处出现稳定响应。SSVEP 很适合学习频谱分析、空间滤波和多类别 BCI。
 
-<div class="concept-figure" markdown="1">
 ![12 Hz SSVEP 及二次和三次谐波概念谱](../assets/figures/ssvep-spectrum.svg)
-<small>刺激频率是 12 Hz，但响应还可能出现在 24 Hz 和 36 Hz。</small>
-</div>
+
+*图解：刺激频率是 12 Hz，但响应还可能出现在 24 Hz 和 36 Hz。*
 
 ### 为什么会有谐波
 

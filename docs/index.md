@@ -14,10 +14,9 @@ Awesome EEG Learning 是一套中文优先、科研规范优先的 EEG 入门项
 2. 打开[采样与混叠实验室](labs/sampling.md)，拖动参数理解 Nyquist 条件。
 3. 遇到陌生词时查[初学者术语表](glossary.md)，再回到具体范式。
 
-<div class="concept-figure" markdown="1">
 ![常用 EEG 10–20 电极示意图](assets/figures/electrode-map.svg)
-<small>先把范式与通道位置联系起来，再理解为什么不能从头皮电位直接跳到脑源结论。</small>
-</div>
+
+*图解：先把范式与通道位置联系起来，再理解为什么不能从头皮电位直接跳到脑源结论。*
 
 !!! warning "仅限教学科研"
     本项目不是医疗器械，不能用于诊断、治疗、麻醉给药或患者监护。临床 EEG 必须由具备资质的专业人员结合完整临床信息解释。

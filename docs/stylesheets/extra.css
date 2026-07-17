@@ -19,23 +19,12 @@
   }
 }
 
-.concept-figure {
-  margin: 1.5rem auto;
-  text-align: center;
-}
-
-.concept-figure img {
+.md-typeset img[src*="assets/figures/"] {
+  display: block;
+  margin: 1.5rem auto 0.5rem;
   width: 100%;
   max-height: 34rem;
   object-fit: contain;
-}
-
-.concept-figure figcaption,
-.concept-figure small {
-  display: block;
-  color: var(--md-default-fg-color--light);
-  font-size: 0.72rem;
-  margin-top: 0.4rem;
 }
 
 .learning-flow {
