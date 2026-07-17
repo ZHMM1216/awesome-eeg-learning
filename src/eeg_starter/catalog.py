@@ -19,15 +19,26 @@ CODE_RELATIONS = {"official", "author_related", "community_reproduction", "none_
 TOPICS = {
     "foundation",
     "tooling",
+    "preprocessing",
+    "erp",
+    "time-frequency",
+    "connectivity",
+    "deep-learning",
+    "resting-state",
     "p300",
     "ssvep",
     "motor-imagery",
     "ern",
     "n170",
+    "mmn",
+    "assr",
     "stroke",
     "epilepsy",
     "sleep",
     "anesthesia",
+    "critical-care",
+    "neonatal",
+    "neurodegeneration",
 }
 
 

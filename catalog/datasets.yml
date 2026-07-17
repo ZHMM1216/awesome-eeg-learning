@@ -98,3 +98,86 @@
   subjects: 6388
   instructions_zh: 先阅读并同意 VitalDB 数据使用协议；筛选同时包含 EEG、BIS、SQI、SEF、SR 的病例。
 
+- id: lemon
+  name: Leipzig Study for Mind-Body-Emotion Interactions (LEMON)
+  topics: [resting-state, foundation, neurodegeneration]
+  official_url: https://openneuro.org/datasets/ds000221
+  access: open
+  license: see OpenNeuro dataset metadata
+  formats: [EEG-BIDS, BrainVision]
+  subjects: 227
+  sampling_rate_hz: 2500
+  instructions_zh: 同时含年轻与老年健康成人及多模态资料；先固定数据版本，只选 EEG 子集，并在降采样前处理抗混叠。
+
+- id: tdbrain
+  name: The two decades brainclinics research archive for insights in neurophysiology (TDBRAIN)
+  topics: [resting-state, neurodegeneration, deep-learning]
+  official_url: https://www.synapse.org/TDBRAIN
+  access: registration and data use agreement required
+  license: TDBRAIN Data Use Agreement
+  formats: [EEG-BIDS, BrainVision, CSV]
+  subjects: 1274
+  sampling_rate_hz: 500
+  instructions_zh: 通过 ORCID/Synapse 注册并签署协议；先用官方 20 人样例测试流程，不要把转诊指征误当作统一金标准诊断。
+
+- id: dortmund-vital
+  name: Dortmund Vital Study resting-state EEG
+  topics: [resting-state, neurodegeneration]
+  official_url: https://openneuro.org/datasets/ds005385/versions/1.0.2
+  access: open
+  license: CC0
+  formats: [EEG-BIDS, EDF]
+  subjects: 608
+  sampling_rate_hz: 1000
+  instructions_zh: 含认知任务前后睁闭眼及 208 人约五年随访；按受试者和时间点分组，避免同一人的随访进入不同数据集。
+
+- id: dementia-ds004504
+  name: Alzheimer's disease, Frontotemporal dementia and Healthy subjects EEG
+  topics: [neurodegeneration, resting-state]
+  official_url: https://openneuro.org/datasets/ds004504
+  access: open
+  license: CC0
+  formats: [EEG-BIDS, EEGLAB]
+  subjects: 88
+  sampling_rate_hz: 500
+  instructions_zh: 36 名 AD、23 名 FTD 和 29 名健康对照；必须按受试者划分，并审查年龄、药物和采集流程等潜在混杂。
+
+- id: helsinki-neonatal-seizure
+  name: Helsinki neonatal EEG recordings with seizure annotations
+  topics: [neonatal, epilepsy, critical-care]
+  official_url: https://zenodo.org/records/1280684
+  access: open
+  license: see Zenodo record
+  formats: [EDF, CSV, MATLAB]
+  subjects: 79
+  sampling_rate_hz: 256
+  instructions_zh: 保留三名专家的独立标注并报告共识规则；新生儿背景和发作形态不可套用成人标准。
+
+- id: mi-user-profiles
+  name: Large motor-imagery EEG database with user profiles
+  topics: [motor-imagery, deep-learning]
+  official_url: https://zenodo.org/records/8089820
+  access: open
+  license: CC BY 4.0
+  formats: [GDF, OpenViBE, XLSX]
+  subjects: 87
+  instructions_zh: 含三个同协议数据集和用户画像；跨用户研究按人划分，画像变量只在明确假设下使用并讨论公平性。
+
+- id: multi-day-mi-2025
+  name: Multi-day high-quality motor imagery EEG dataset
+  topics: [motor-imagery, deep-learning]
+  official_url: https://doi.org/10.25452/figshare.plus.22671172
+  access: open
+  license: see Figshare record
+  formats: [MATLAB]
+  instructions_zh: 把“同日随机划分”“跨日迁移”和“少量目标日校准”设为三个不同问题，分别报告结果。
+
+- id: nmt-scalp-eeg
+  name: NMT Scalp EEG Dataset
+  topics: [epilepsy, critical-care, deep-learning]
+  official_url: https://doi.org/10.3389/fnins.2021.755817
+  access: open after following the article data link
+  license: see official data record
+  formats: [EDF, clinical labels]
+  recordings: 2417
+  instructions_zh: 临床正常/异常标签适合筛查研究；按患者划分，并核查设备、转诊来源、报告者和记录时长是否成为捷径特征。
