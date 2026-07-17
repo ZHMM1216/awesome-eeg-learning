@@ -16,6 +16,14 @@
 | 睡眠 | [Sleep-EDF Expanded](https://physionet.org/content/sleep-edfx/1.0.0/) | 197 个 PSG 记录，100 Hz | 开放 | 一晚 Hypnogram 与五分类 |
 | 麻醉 | [GABA anesthesia](https://physionet.org/content/eeg-gaba-anesthesia/1.0.0/) | MATLAB，意识状态事件 | 凭证 | 意识消失/恢复谱图 |
 | 麻醉 | [VitalDB](https://vitaldb.net/dataset/) | 6388 例术中多参数 | 使用协议 | EEG/BIS/SQI 对齐 |
+| 静息态 | [LEMON ds000221](https://openneuro.org/datasets/ds000221) | 227 人，多模态，BIDS | 开放 | 年龄与个体 Alpha 峰 |
+| 临床静息态 | [TDBRAIN](https://www.synapse.org/TDBRAIN) | 1274 人，生命周期临床 EEG | 注册/DUA | 先用 20 人样例做批量质控 |
+| 纵向静息态 | [Dortmund Vital ds005385](https://openneuro.org/datasets/ds005385/versions/1.0.2) | 608 人，208 人五年随访 | CC0 | 睁闭眼、任务前后与重测 |
+| 神经退行 | [AD/FTD ds004504](https://openneuro.org/datasets/ds004504) | 88 人，19 导，500 Hz | CC0 | 患者级谱特征基线 |
+| 新生儿发作 | [Helsinki neonatal](https://zenodo.org/records/1280684) | 79 人，三专家标注 | 开放 | 比较单专家与共识标签 |
+| 跨用户 MI | [MI user profiles](https://zenodo.org/records/8089820) | 87 人，>20,800 trials | CC BY 4.0 | 跨用户泛化和公平性 |
+| 跨日 MI | [Multi-day MI](https://doi.org/10.25452/figshare.plus.22671172) | 多日高质量运动想象 | 开放 | 会话漂移与目标日校准 |
+| 临床常规 EEG | [NMT Scalp EEG](https://doi.org/10.3389/fnins.2021.755817) | 2417 条正常/异常记录 | 见官方数据页 | 患者级筛查与捷径审计 |
 
 ## 数据集下载前的 12 项检查
 

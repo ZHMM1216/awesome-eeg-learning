@@ -48,23 +48,34 @@ nav:
   - 首页: index.md
   - 入门路线:
       - 环境与学习路线: getting-started.md
+      - 12 周训练营: study-plan.md
       - EEG 基础: foundations.md
+      - 工具与数据标准: tooling.md
       - EEG 可视化图谱: visual-atlas.md
       - 采样与混叠实验室: labs/sampling.md
       - EEG 术语表: glossary.md
       - 科研与评估规范: research-practice.md
+  - 方法课程:
+      - 预处理与质量控制: methods/preprocessing.md
+      - ERP、频谱与时频: methods/erp-time-frequency.md
+      - 特征、模型与评估: methods/features-models.md
+      - 连接性、微状态与源定位: methods/connectivity-source.md
   - 经典范式:
       - 范式总览: paradigms.md
+      - 静息态 EEG: paradigms/resting-state.md
       - 睁闭眼 Alpha: paradigms/alpha.md
       - Oddball / P300: paradigms/p300.md
       - SSVEP: paradigms/ssvep.md
       - 运动想象: paradigms/motor-imagery.md
       - ERN 与 N170: paradigms/ern-n170.md
+      - MMN 与 ASSR: paradigms/mmn-assr.md
   - 临床方向:
       - 卒中: stroke.md
       - 癫痫: epilepsy.md
       - 睡眠分期: sleep.md
       - 麻醉: anesthesia.md
+      - 重症与新生儿 EEG: critical-care.md
+      - 神经退行性疾病: neurodegeneration.md
   - 资源:
       - 数据集: datasets.md
       - 精选论文: literature.md

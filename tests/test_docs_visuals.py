@@ -26,7 +26,7 @@ def test_all_local_doc_images_exist() -> None:
 
 def test_svg_figures_are_accessible_and_reasonably_sized() -> None:
     figures = sorted(FIGURES.glob("*.svg"))
-    assert len(figures) == 10
+    assert len(figures) == 18
     for figure in figures:
         content = figure.read_text(encoding="utf-8")
         assert "<svg" in content

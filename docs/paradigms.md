@@ -7,11 +7,14 @@
 | 范式 | 典型任务 | 预期 EEG | 关键通道/频段 | 第一种分析 | 难度 |
 |---|---|---|---|---|---|
 | [睁闭眼 Alpha](paradigms/alpha.md) | 交替睁眼、闭眼 | 闭眼 Alpha 增强 | O1/O2/Oz，8–13 Hz | Welch PSD | ★ |
+| [静息态 EEG](paradigms/resting-state.md) | 安静睁眼/闭眼 | 峰、1/f、微状态与连接 | 全头，重点后部 Alpha | 谱参数化 | ★★ |
 | [Oddball / P300](paradigms/p300.md) | 识别稀有目标 | 约 250–500 ms 正波 | Pz/CPz/Cz | 条件 ERP | ★★ |
 | [SSVEP](paradigms/ssvep.md) | 注视不同频率闪烁 | 同频及谐波峰 | 枕区，刺激频率 | PSD / CCA | ★★ |
 | [运动想象](paradigms/motor-imagery.md) | 想象左右手运动 | 对侧 Mu/Beta ERD/ERS | C3/C4/Cz，8–30 Hz | 时频 / CSP | ★★★ |
 | [Flanker / ERN](paradigms/ern-n170.md#flanker-ern) | 快速反应并产生错误 | 错误后负向成分 | FCz/Cz，约 0–100 ms | 反应锁定 ERP | ★★★ |
 | [人脸 N170](paradigms/ern-n170.md#n170) | 人脸与非人脸判断 | 枕颞负向成分 | P7/P8/PO7/PO8，约 170 ms | 刺激锁定 ERP | ★★ |
+| [MMN](paradigms/mmn-assr.md#mmn) | 标准音中插入偏差音 | 约 100–250 ms 差异负波 | Fz/FCz/Cz | 偏差−标准 ERP | ★★ |
+| [ASSR](paradigms/mmn-assr.md#assr) | 周期点击或调幅音 | 刺激频率跟随 | 额中央/颞区 | 频谱 / ITPC | ★★ |
 
 ## 每个范式都要回答的 7 个问题
 

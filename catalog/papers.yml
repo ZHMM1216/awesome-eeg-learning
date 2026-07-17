@@ -316,7 +316,8 @@
   classic: false
   recent: true
   paper_url: https://doi.org/10.1038/s41597-023-02525-0
-  code_relation: none_found
+  code_url: https://github.com/crisglav/discover-eeg
+  code_relation: official
   summary_zh: 面向临床神经科学生物标志物发现的自动化静息态 EEG 流程，适合参考质控和批处理设计。
 
 - id: liu-2024-acute-stroke-mi
@@ -387,3 +388,381 @@
   code_relation: none_found
   summary_zh: 慢性卒中患者多会话上肢运动想象数据，包含临床量表，可用于纵向和恢复程度相关研究。
 
+- id: naatanen-1978-mmn
+  title: Early selective-attention effect on evoked potential reinterpreted
+  authors: Risto Näätänen; Anthony W. K. Gaillard; Sirkka Mäntysalo
+  year: 1978
+  venue: Acta Psychologica
+  doi: 10.1016/0001-6918(78)90006-9
+  topics: [erp, mmn]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/0001-6918(78)90006-9
+  code_relation: none_found
+  summary_zh: MMN 概念的早期奠基工作。入门时重点理解标准刺激、偏差刺激与差异波，而不是把一个负峰直接当作诊断指标。
+
+- id: galambos-1981-assr
+  title: A 40-Hz auditory potential recorded from the human scalp
+  authors: Robert Galambos; Steven Makeig; Peter J. Talmachoff
+  year: 1981
+  venue: Proceedings of the National Academy of Sciences
+  doi: 10.1073/pnas.78.4.2643
+  topics: [assr, time-frequency]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1073/pnas.78.4.2643
+  code_relation: none_found
+  summary_zh: 40 Hz 听觉稳态反应的经典论文，帮助理解周期刺激、频率跟随和相位一致性。
+
+- id: klimesch-1999-alpha
+  title: "EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis"
+  authors: Wolfgang Klimesch
+  year: 1999
+  venue: Brain Research Reviews
+  doi: 10.1016/S0165-0173(98)00056-3
+  topics: [resting-state, foundation, time-frequency]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/S0165-0173(98)00056-3
+  code_relation: none_found
+  summary_zh: Alpha/Theta 与认知和记忆关系的经典综述，是理解个体 Alpha 峰及任务相关节律变化的概念入口。
+
+- id: jung-2000-ica
+  title: Removing electroencephalographic artifacts by blind source separation
+  authors: Tzyy-Ping Jung et al.
+  year: 2000
+  venue: Psychophysiology
+  doi: 10.1111/1469-8986.3720163
+  topics: [preprocessing, foundation]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1111/1469-8986.3720163
+  code_relation: none_found
+  summary_zh: ICA 去除眼动、肌电等混合伪迹的经典工作；实际使用必须记录成分判定和删除依据，并比较清理前后信号。
+
+- id: jeong-2004-alzheimer
+  title: EEG dynamics in patients with Alzheimer's disease
+  authors: Jaeseung Jeong
+  year: 2004
+  venue: Clinical Neurophysiology
+  doi: 10.1016/j.clinph.2004.01.001
+  topics: [neurodegeneration, resting-state]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.clinph.2004.01.001
+  code_relation: none_found
+  summary_zh: 阿尔茨海默病 EEG 动力学经典综述，概括频谱减慢、复杂度和同步变化，同时提醒这些群体差异并不等于个体确诊。
+
+- id: naatanen-2007-mmn-review
+  title: "The mismatch negativity (MMN) in basic research of central auditory processing: A review"
+  authors: Risto Näätänen; Paavo Paavilainen; Tiitit Reinikainen; Kirsi Alho
+  year: 2007
+  venue: Clinical Neurophysiology
+  doi: 10.1016/j.clinph.2007.04.026
+  topics: [erp, mmn]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.clinph.2007.04.026
+  code_relation: none_found
+  summary_zh: 系统梳理 MMN 的产生、范式变量和解释边界，适合在动手做听觉 Oddball 前建立分析框架。
+
+- id: fieldtrip-2011
+  title: "FieldTrip: Open Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data"
+  authors: Robert Oostenveld et al.
+  year: 2011
+  venue: Computational Intelligence and Neuroscience
+  doi: 10.1155/2011/156869
+  topics: [tooling, time-frequency, connectivity]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1155/2011/156869
+  code_url: https://github.com/fieldtrip/fieldtrip
+  code_relation: official
+  summary_zh: FieldTrip 工具箱论文，覆盖时频、源分析和连接性；适合与 MNE、EEGLAB 的教程交叉学习。
+
+- id: brainstorm-2011
+  title: "Brainstorm: A User-Friendly Application for MEG/EEG Analysis"
+  authors: François Tadel et al.
+  year: 2011
+  venue: Computational Intelligence and Neuroscience
+  doi: 10.1155/2011/879716
+  topics: [tooling, connectivity]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1155/2011/879716
+  code_url: https://github.com/brainstorm-tools/brainstorm3
+  code_relation: official
+  summary_zh: 以图形界面组织 MEG/EEG 预处理、源定位和组分析，适合初学者理解完整分析树和可追溯处理历史。
+
+- id: barachant-2012-riemann
+  title: Multiclass Brain-Computer Interface Classification by Riemannian Geometry
+  authors: Alexandre Barachant et al.
+  year: 2012
+  venue: IEEE Transactions on Biomedical Engineering
+  doi: 10.1109/TBME.2011.2172210
+  topics: [motor-imagery, foundation]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1109/TBME.2011.2172210
+  code_url: https://github.com/pyRiemann/pyRiemann
+  code_relation: author_related
+  summary_zh: 协方差矩阵与黎曼几何 BCI 分类的代表性工作，是 CSP+LDA 之外的重要透明基线。
+
+- id: prep-2015
+  title: "PREP pipeline: standardized preprocessing for large-scale EEG analysis"
+  authors: Nima Bigdely-Shamlo et al.
+  year: 2015
+  venue: Frontiers in Neuroinformatics
+  doi: 10.3389/fninf.2015.00016
+  topics: [preprocessing, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.3389/fninf.2015.00016
+  code_url: https://github.com/VisLab/EEG-Clean-Tools
+  code_relation: official
+  summary_zh: 提出稳健参考、工频处理和坏导识别的标准化流程，适合学习“自动化仍需质控报告”的原则。
+
+- id: autoreject-2017
+  title: "Autoreject: Automated artifact rejection for MEG and EEG data"
+  authors: Mainak Jas et al.
+  year: 2017
+  venue: NeuroImage
+  doi: 10.1016/j.neuroimage.2017.06.030
+  topics: [preprocessing, tooling, erp]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.neuroimage.2017.06.030
+  code_url: https://github.com/autoreject/autoreject
+  code_relation: official
+  summary_zh: 通过交叉验证学习通道级峰峰值阈值并修复或拒绝 Epoch，适合作为人工阈值之外的可复现方案。
+
+- id: braindecode-2017
+  title: Deep learning with convolutional neural networks for EEG decoding and visualization
+  authors: Robin Tibor Schirrmeister et al.
+  year: 2017
+  venue: Human Brain Mapping
+  doi: 10.1002/hbm.23730
+  topics: [deep-learning, tooling, motor-imagery]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1002/hbm.23730
+  code_url: https://github.com/braindecode/braindecode
+  code_relation: official
+  summary_zh: EEG 深度解码与可视化的代表性工作；复现时应与 CSP、黎曼几何等基线使用同一受试者级划分比较。
+
+- id: michel-koenig-2018-microstates
+  title: "EEG microstates as a tool for studying the temporal dynamics of whole-brain neuronal networks: A review"
+  authors: Christoph M. Michel; Thomas Koenig
+  year: 2018
+  venue: NeuroImage
+  doi: 10.1016/j.neuroimage.2017.11.062
+  topics: [resting-state, connectivity]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.neuroimage.2017.11.062
+  code_relation: none_found
+  summary_zh: EEG 微状态的经典综述，帮助理解毫秒尺度头皮拓扑序列及聚类、回配和重测信度问题。
+
+- id: neonatal-seizure-dataset-2019
+  title: A dataset of neonatal EEG recordings with seizure annotations
+  authors: Nathan J. Stevenson et al.
+  year: 2019
+  venue: Scientific Data
+  doi: 10.1038/sdata.2019.39
+  topics: [neonatal, epilepsy, critical-care]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1038/sdata.2019.39
+  code_url: https://github.com/ktapani/Neonatal_Seizure_Detection
+  code_relation: official
+  summary_zh: 79 名足月新生儿、多专家独立发作标注的数据说明，适合学习标签不确定性和观察者一致性。
+
+- id: iclabel-2019
+  title: "ICLabel: An automated electroencephalographic independent component classifier, dataset, and website"
+  authors: Luca Pion-Tonachini; Ken Kreutz-Delgado; Scott Makeig
+  year: 2019
+  venue: NeuroImage
+  doi: 10.1016/j.neuroimage.2019.05.026
+  topics: [preprocessing, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1016/j.neuroimage.2019.05.026
+  code_url: https://github.com/sccn/ICLabel
+  code_relation: official
+  summary_zh: 自动标注 ICA 成分为脑、眼、肌肉等类别；概率输出用于辅助审核，不能代替对拓扑、频谱和时程的检查。
+
+- id: specparam-2020
+  title: Parameterizing neural power spectra into periodic and aperiodic components
+  authors: Thomas Donoghue et al.
+  year: 2020
+  venue: Nature Neuroscience
+  doi: 10.1038/s41593-020-00744-x
+  topics: [resting-state, time-frequency, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1038/s41593-020-00744-x
+  code_url: https://github.com/fooof-tools/fooof
+  code_relation: official
+  summary_zh: 将功率谱拆为周期峰和非周期背景，避免把 1/f 斜率变化误解为固定频带振荡变化。
+
+- id: bendr-2021
+  title: "BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data"
+  authors: Demetres Kostas; Stéphane Aroca-Ouellette; Frank Rudzicz
+  year: 2021
+  venue: Frontiers in Human Neuroscience
+  doi: 10.3389/fnhum.2021.653659
+  topics: [deep-learning, tooling]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.3389/fnhum.2021.653659
+  code_url: https://github.com/SPOClab-ca/BENDR
+  code_relation: official
+  summary_zh: EEG 自监督预训练的早期代表工作，适合学习预训练数据、通道映射、下游微调和跨数据集迁移。
+
+- id: acns-2021-critical-care
+  title: "American Clinical Neurophysiology Society's Standardized Critical Care EEG Terminology: 2021 Version"
+  authors: Lawrence J. Hirsch et al.
+  year: 2021
+  venue: Journal of Clinical Neurophysiology
+  doi: 10.1097/WNP.0000000000000806
+  topics: [critical-care, epilepsy]
+  classic: true
+  recent: false
+  paper_url: https://doi.org/10.1097/WNP.0000000000000806
+  code_relation: none_found
+  summary_zh: 重症连续 EEG 的标准术语，定义背景、周期/节律放电、爆发抑制与发作等报告语言，但不把术语自动等同于病因或治疗决策。
+
+- id: nmt-scalp-eeg-2021
+  title: "The NMT Scalp EEG Dataset: An Open-Source Annotated Dataset of Healthy and Pathological EEG Recordings for Predictive Modeling"
+  authors: Muhammad Saqib et al.
+  year: 2021
+  venue: Frontiers in Neuroscience
+  doi: 10.3389/fnins.2021.755817
+  topics: [epilepsy, critical-care, deep-learning]
+  classic: false
+  recent: false
+  paper_url: https://doi.org/10.3389/fnins.2021.755817
+  code_relation: none_found
+  summary_zh: 大型临床常规头皮 EEG 数据说明，适合研究正常/异常筛查，同时必须防止记录来源和患者身份泄漏。
+
+- id: happe-er-2022
+  title: "The HAPPE plus Event-Related (HAPPE+ER) software: A standardized preprocessing pipeline for event-related potential analyses"
+  authors: Alexis D. Monachino et al.
+  year: 2022
+  venue: Developmental Cognitive Neuroscience
+  doi: 10.1016/j.dcn.2022.101140
+  topics: [preprocessing, erp, tooling]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1016/j.dcn.2022.101140
+  code_url: https://github.com/PINE-Lab/HAPPE
+  code_relation: official
+  summary_zh: 面向 ERP 的标准化预处理流程，尤其适合高伪迹人群；使用时仍要按自身范式审查默认参数。
+
+- id: tdbrain-2022
+  title: The two decades brainclinics research archive for insights in neurophysiology (TDBRAIN) database
+  authors: Martijn Arns et al.
+  year: 2022
+  venue: Scientific Data
+  doi: 10.1038/s41597-022-01409-z
+  topics: [resting-state, neurodegeneration, deep-learning]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-022-01409-z
+  code_url: https://www.synapse.org/TDBRAIN
+  code_relation: official
+  summary_zh: 1274 名参与者的临床生命周期 EEG 数据库，含睁闭眼、任务、人口学和临床信息，访问需注册并接受数据使用协议。
+
+- id: stroke-prognosis-meta-2022
+  title: "The Prognostic Utility of Electroencephalography in Stroke Recovery: A Systematic Review and Meta-Analysis"
+  authors: Amanda A. Vatinno et al.
+  year: 2022
+  venue: Neurorehabilitation and Neural Repair
+  doi: 10.1177/15459683221078294
+  topics: [stroke, resting-state]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1177/15459683221078294
+  code_relation: none_found
+  summary_zh: 汇总 EEG 与卒中恢复结局的关联证据；重点区分相关性、增量预后价值与真正可用于临床决策的外部验证。
+
+- id: caueeg-2023
+  title: "Deep learning-based EEG analysis to classify normal, mild cognitive impairment, and dementia: Algorithms and dataset"
+  authors: Min-Jae Kim; Young Chul Youn; Joonki Paik
+  year: 2023
+  venue: NeuroImage
+  doi: 10.1016/j.neuroimage.2023.120054
+  topics: [neurodegeneration, deep-learning]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1016/j.neuroimage.2023.120054
+  code_url: https://github.com/ipis-mjkim/caueeg-ceednet
+  code_relation: official
+  summary_zh: 提出 CAUEEG 临床数据和端到端分类模型；入门复现应先检查年龄、诊断流程、划分单位与外部泛化。
+
+- id: dementia-openneuro-2023
+  title: "A Dataset of Scalp EEG Recordings of Alzheimer's Disease, Frontotemporal Dementia and Healthy Subjects from Routine EEG"
+  authors: Andreas Miltiadous et al.
+  year: 2023
+  venue: Data
+  doi: 10.3390/data8060095
+  topics: [neurodegeneration, resting-state]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.3390/data8060095
+  code_relation: none_found
+  summary_zh: 88 名受试者的睁眼/闭眼静息态临床 EEG 数据说明，可在 OpenNeuro ds004504 获取；规模适合教学而不适合宣称临床诊断性能。
+
+- id: large-mi-profile-2023
+  title: A large EEG database with users' profile information for motor imagery brain-computer interface research
+  authors: Pauline Dreyer et al.
+  year: 2023
+  venue: Scientific Data
+  doi: 10.1038/s41597-023-02445-z
+  topics: [motor-imagery, deep-learning]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-023-02445-z
+  code_relation: none_found
+  summary_zh: 87 名用户、超过 20,800 个试次并含用户画像，适合跨受试者算法和 BCI 个体差异研究。
+
+- id: dortmund-resting-2024
+  title: Resting-state EEG data before and after cognitive activity across the adult lifespan and a 5-year follow-up
+  authors: Stephan Getzmann et al.
+  year: 2024
+  venue: Scientific Data
+  doi: 10.1038/s41597-024-03797-w
+  topics: [resting-state, neurodegeneration]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-024-03797-w
+  code_relation: none_found
+  summary_zh: 608 名成人、其中 208 名约五年随访的 64 导静息态 BIDS 数据，适合学习年龄、疲劳和纵向变化。
+
+- id: eegpt-2024
+  title: "EEGPT: Pretrained Transformer for Universal and Reliable Representation of EEG Signals"
+  authors: Weijian Wang et al.
+  year: 2024
+  venue: Advances in Neural Information Processing Systems
+  doi: 10.52202/079017-1239
+  topics: [deep-learning, tooling]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.52202/079017-1239
+  code_url: https://github.com/BINE022/EEGPT
+  code_relation: official
+  summary_zh: 大规模 EEG 预训练 Transformer 的近年代表工作；复现时必须记录预训练语料重叠、通道映射和测试集隔离。
+
+- id: multi-day-mi-2025
+  title: A multi-day and high-quality EEG dataset for motor imagery brain-computer interface
+  authors: Bin Yang et al.
+  year: 2025
+  venue: Scientific Data
+  doi: 10.1038/s41597-025-04826-y
+  topics: [motor-imagery, deep-learning]
+  classic: false
+  recent: true
+  paper_url: https://doi.org/10.1038/s41597-025-04826-y
+  code_url: https://doi.org/10.25452/figshare.plus.22671172
+  code_relation: official
+  summary_zh: 多日、经过系统质控的运动想象数据，适合研究会话漂移、校准需求和跨天泛化，而不是随机混合所有试次。
